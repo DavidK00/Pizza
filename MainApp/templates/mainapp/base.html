@@ -1,0 +1,16 @@
+<html>
+<body style="background-color:powderblue;"></body>
+<p style="font-size: 40"> Davids Pizzaria </p>
+<p>
+    
+    <a  href="{% url 'MainApp:pizza' %}" style="font-size: 30"> Menu 
+        
+    </a>
+    
+</p>
+{% load static %}
+<img src={% static 'pizzaria.jpg' %}
+</html>
+{% block content %}
+
+{% endblock content %}

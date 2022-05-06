@@ -1,0 +1,13 @@
+<body style="background-color:powderblue;"></body>
+<ul> 
+    {% for x in pizzas %} 
+    <a href = "{% url 'MainApp:indiv_pizza/' p.id %}" style="font-size: 20" <li>{{ x }}</li></a>
+    {% endfor %}
+</ul>
+
+
+
+  
+
+
+  
